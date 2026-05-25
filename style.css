@@ -29,7 +29,7 @@ body {
     min-height: 100vh;
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .main{
@@ -42,16 +42,11 @@ body {
     top: 0;
     z-index: 1000; 
     background-color: white; 
-
     background-color: rgba(255, 255, 255, 0.8);
     -webkit-backdrop-filter: blur(10px); 
     backdrop-filter: blur(4px);
-
-
-    /* ... keep your existing position/flex properties ... */
     background-color: var(--nav-bg); 
     border-bottom: 2px solid var(--border-color);
-
     width: 100%;
     height: 60px;
     padding: 0 4vw;
@@ -138,7 +133,6 @@ body {
 }
 .left h1 span{
     color:rgb(103, 53, 53);
-    /* margin:4vw; */
     font-style: italic;
 }
 .left button{
@@ -191,7 +185,6 @@ body {
     grid-template-columns:repeat(3,1fr);
     width: 100%;
     align-items: stretch;           
-    /* justify-content: space-between;  */
     gap: 3vw;                       
     padding: 5vw 4vw;              
 }
@@ -235,10 +228,8 @@ body {
 }
 
 body.dark-mode .theme-btn {
-    color: #ffca28 !important; /* Yellow sun icon in dark mode */
+    color: #ffca28 !important; 
 }
-
-
 .card button {
     padding: 0.6vw 1.5vw;
     background-color: transparent;
@@ -253,17 +244,11 @@ body.dark-mode .theme-btn {
     background-color: rgb(103, 53, 53);
     color: white;
 }
-
-/* footer{
-    width:100%;
-} */
 .footer_content{
 display:flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
-/* flex-wrap:flex; */
-/* flex:1; */
 padding:2vw;
 }
 .footer_content h2{
@@ -290,7 +275,6 @@ padding:2vw;
     .nav .nav_part2{
         display:none;
     }
-
     .content{
         display:flex;
         flex-direction:column;
@@ -318,7 +302,6 @@ padding:2vw;
     }
     .left button{
         font-size:5vw;
-        /* font-weight:400; */
         margin-left:20vw;
         margin-top:10vw;
         gap:2vw;
@@ -333,15 +316,10 @@ padding:2vw;
         height:50%;
         margin-left:1vw;
     }
-
-    /* Force cards to stack on top of each other instead of side-by-side */
     .service_module {
-        /* flex-direction: column; */
         grid-template-columns:1fr;
         gap: 5vw;
     }
-
-    /* Adjust font sizing within the cards so they read cleanly on phone screens */
     .card h2 {
         font-size: 6vw;
         margin-bottom: 3vw;
@@ -351,7 +329,6 @@ padding:2vw;
         font-size: 4vw;
         margin-bottom: 5vw;
     }
-
     .card button {
         padding: 3vw 6vw;
         font-size: 4vw;
