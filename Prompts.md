@@ -1,7 +1,3 @@
-# 📝 Project Build Logs & Engineering Prompts
-
-This log preserves the iterative engineering prompts and design choices used to build the **Prodesk IT** web landing page. It tracks the step-by-step feature additions from layout debugging to state management.
-
 ## 🛠️ Phase 1: Sticky Navigation Architecture
 **Prompt:**
 > how to get a sticky nav bar , which on scrolling do not move with the page but the the rest move
